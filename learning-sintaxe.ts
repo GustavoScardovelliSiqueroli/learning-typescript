@@ -55,7 +55,7 @@ console.log(returnTypeSpace({ alignment: "center" }));
 console.log();
 console.log(typeof messageConst);
 
-function printAll(strs: string | string[] | null) {
+function printAll(strs: string | string[] | null): string | string[] {
   if (!strs) {
     return "";
   }
